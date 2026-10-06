@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Experiment outputs
+runs/
+logs/
+checkpoints/
+*.pt
+*.pth
+
+# Generated figures / data
+# Uncomment these if you don't want them tracked
+# figures/generated/
+# data/generated/
+
+# MATLAB
+*.asv
+
+# Temporary files
+*.tmp
+*.bak
